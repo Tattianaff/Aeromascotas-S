@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mascotas</title>
+    <script src="../js/color-modes.js"></script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <header>
+    <div class="px-3 py-2 fondo border-bottom">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <!-- logo del proyecto -->
+            <img src="../img/logo.png" alt="AeroMascotas" width="auto" height="70">
+            <h1 class="titulo">AeroMascotas</h1>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <li>
+              <a href="index_cliente.html" class="nav-link text-secondary">
+                    
+                <!-- Codigo del icono extraido del Bootstrap-->
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                  </svg>
+                Home
+              </a>
+            </li>
+            
+            <li>
+            
+            <ul class="nav nav-tabs">
+              <li class="nav-item dropdown">
+
+              
+              <a href="#" class="nav-link text-black negrilla" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" >
+                <!-- icono extraido desde botstrap -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" class="bi bi-grid-1x2" viewBox="0 0 16 16">
+                    <path d="M6 1H1v14h5zm9 0h-5v5h5zm0 9v5h-5v-5zM0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1zm1 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1z"/>
+                  </svg>
+                Servicios</a>
+                <ul class="dropdown-menu fondo">
+                  <li><a class="dropdown-item negrilla" href="mis_servicios.html">Mis Servicios</a></li>
+                  <li><a class="dropdown-item negrilla" href="solicitar_completo.html">Servicio Completo</a></li>
+                  <li><a class="dropdown-item negrilla" href="solicitar_especificos.html">Servicio Especifico</a></li>
+                  <li><a class="dropdown-item negrilla" href="asesoria.html">Asesoria</a></li>
+                </ul>
+            </li>
+            <li>
+              <a href="error_404.html" class="nav-link text-black negrilla">
+                <!-- Codigo del icono extraido del Bootstrap-->
+                <svg xmlns="http://www.w3.org/2000/svg"  class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" class="bi bi-info-lg" viewBox="0 0 16 16">
+                  <path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0"/>
+                </svg>
+                Ayuda
+              </a>
+            </li>
+              <li>
+                <a href="mascotas.html" class="nav-link text-black">
+                  <!-- icono extraido desde la carpeta img -->
+                    <img class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" viewBox="0 0 16 16" src="../img/iconomascotas.png" alt=""  >
+                  Mascotas
+                </a>
+              </li>
+              <li>
+                <ul class="nav nav-tabs">
+                  <li class="nav-item dropdown ">
+                    
+                    <a class=" text-decoration-none nav-link text-black negrilla" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" >
+                      
+                      <!-- icono extraido desde botstrap -->
+  
+                      <svg xmlns="http://www.w3.org/2000/svg" class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                      </svg>
+                    Cliente
+                    <span class="position-absolute top-0 start-100 translate-middle  p-1 btn btn-bd-primary border border-light rounded-circle">
+                      <span class="visually-hidden">New alerts</span>
+                    </span>
+                    </a>
+                    
+                    <ul class="dropdown-menu fondo">
+                      <li><a class="dropdown-item negrilla" href="perfil.html">Perfil</a></li>
+                      <li><a class="dropdown-item negrilla" href="notificaciones.html">Notificaciones <span class="badge   text-white btn btn-bd-primary">4</span> </a></li>
+                      <li><a class="dropdown-item negrilla" href="../index.html">Salir</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+        </div>
+      </div>
+    </div>
+    <div class="px-3 py-2 border-bottom mb-3">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+      </div>
+    </div>
+  </header>
+
+<main>
+  <!-- perfil maascota -->
+  <div>
+      <section class="seccion-perfil-usuario">
+        <div class="perfil-usuario-header">
+            <div class="perfil-usuario-portada">
+                <div class="perfil-usuario-avatar text-center">
+                    <!-- <img src="../img/icono David.jpg" alt="img-avatar"> -->
+                    <div class="col-10">
+                      <form class=" justify-content-center ">
+     
+                       <label for="" class="form-label fuenteletra">Foto Mascota</label>
+                       <input type="file" class="form-control text-small fuenteletra">
+                     </form></div>
+                    <button type="button" class="boton-avatar">
+                        <i class="far fa-image"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="perfil-usuario-body">
+            <div class="perfil-usuario-bio">
+              <div class="col-12 ">
+                <form class="fuenteletra">
+                  <div class="mb-3">
+                    <label for="validationNombresMascota" class="form-label fuenteletra "> Nombre Mascota</label>
+                    <input type="text" class="form-control" placeholder="Michito" minlength="3" maxlength="30"  pattern="[a-zA-Z ]*" required>
+                  </div>
+                  <!-- <h3 class="titulo fuenteletra">Michito</h3> -->
+                  </form>
+                </div>
+            </div>
+            <div class="perfil-usuario-footer fuenteletra">
+                <ul class="lista-datos">
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard-heart-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M6.5 0A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0zm3 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                      <path fill-rule="evenodd" d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1A2.5 2.5 0 0 1 9.5 5h-3A2.5 2.5 0 0 1 4 2.5zm4 5.982c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018"/>
+                    </svg> Color
+                    <div class="col-12">
+                      <form class="fuenteletra">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Atigrado" minlength="3" maxlength="30"pattern="[a-zA-Z ]*" required>
+                      </div>
+                      </form> </div>
+                      <!-- Atigrado -->
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8.49 10.92C19.412 3.382 11.28-2.387 8 .986 4.719-2.387-3.413 3.382 7.51 10.92l-.234.468a.25.25 0 1 0 .448.224l.04-.08c.009.17.024.315.051.45.068.344.208.622.448 1.102l.013.028c.212.422.182.85.05 1.246-.135.402-.366.751-.534 1.003a.25.25 0 0 0 .416.278l.004-.007c.166-.248.431-.646.588-1.115.16-.479.212-1.051-.076-1.629-.258-.515-.365-.732-.419-1.004a2 2 0 0 1-.037-.289l.008.017a.25.25 0 1 0 .448-.224l-.235-.468ZM6.726 1.269c-1.167-.61-2.8-.142-3.454 1.135-.237.463-.36 1.08-.202 1.85.055.27.467.197.527-.071.285-1.256 1.177-2.462 2.989-2.528.234-.008.348-.278.14-.386"/>
+                    </svg> Propietaria
+                    <div class="col-12">
+                      <form class="fuenteletra">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Leidy Sotelo" minlength="3" maxlength="30" pattern="[a-zA-Z ]*" required>
+                      </div>
+                      </form> </div>
+                    <!-- Propietaria: Leidy Sotelo -->
+                  </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-square-fill" viewBox="0 0 16 16">
+                      <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm2.5 7.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1"/>
+                    </svg> Peso
+                    <div class="col-12">
+                      <form class="fuenteletra">
+                      <div class="mb-3">
+                        <input type="number" class="form-control" placeholder="4 kg" minlength="3" maxlength="30" required>
+                      </div>
+                      </form> </div> 
+                    <!-- 4 kg -->
+                  </li>
+                </ul>
+                <ul class="lista-datos">
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bandaid-fill" viewBox="0 0 16 16">
+                      <path d="m2.68 7.676 6.49-6.504a4 4 0 0 1 5.66 5.653l-1.477 1.529-5.006 5.006-1.523 1.472a4 4 0 0 1-5.653-5.66l.001-.002 1.505-1.492.001-.002Zm5.71-2.858a.5.5 0 1 0-.708.707.5.5 0 0 0 .707-.707ZM6.974 6.939a.5.5 0 1 0-.707-.707.5.5 0 0 0 .707.707M5.56 8.354a.5.5 0 1 0-.707-.708.5.5 0 0 0 .707.708m2.828 2.828a.5.5 0 1 0-.707-.707.5.5 0 0 0 .707.707m1.414-2.121a.5.5 0 1 0-.707.707.5.5 0 0 0 .707-.707m1.414-.707a.5.5 0 1 0-.706-.708.5.5 0 0 0 .707.708Zm-4.242.707a.5.5 0 1 0-.707.707.5.5 0 0 0 .707-.707m1.414-.707a.5.5 0 1 0-.707-.708.5.5 0 0 0 .707.708m1.414-2.122a.5.5 0 1 0-.707.707.5.5 0 0 0 .707-.707M8.646 3.354l4 4 .708-.708-4-4zm-1.292 9.292-4-4-.708.708 4 4z"/>
+                    </svg> Estado salud
+                    <div class="col-12">
+                      <form class="fuenteletra">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Sano" minlength="3" maxlength="30" pattern="[a-zA-Z ]*" required>
+                      </div>
+                      </form> </div>
+                    <!-- Sano -->
+                  </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cake-fill" viewBox="0 0 16 16">
+                      <path d="m7.399.804.595-.792.598.79A.747.747 0 0 1 8.5 1.806V4H11a2 2 0 0 1 2 2v3h1a2 2 0 0 1 2 2v4a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1v-4a2 2 0 0 1 2-2h1V6a2 2 0 0 1 2-2h2.5V1.813a.747.747 0 0 1-.101-1.01ZM12 6.414a.9.9 0 0 1-.646-.268 1.914 1.914 0 0 0-2.708 0 .914.914 0 0 1-1.292 0 1.914 1.914 0 0 0-2.708 0A.9.9 0 0 1 4 6.414v1c.49 0 .98-.187 1.354-.56a.914.914 0 0 1 1.292 0c.748.747 1.96.747 2.708 0a.914.914 0 0 1 1.292 0c.374.373.864.56 1.354.56zm2.646 5.732a.914.914 0 0 1-1.293 0 1.914 1.914 0 0 0-2.707 0 .914.914 0 0 1-1.292 0 1.914 1.914 0 0 0-2.708 0 .914.914 0 0 1-1.292 0 1.914 1.914 0 0 0-2.708 0 .914.914 0 0 1-1.292 0L1 11.793v1.34c.737.452 1.715.36 2.354-.28a.914.914 0 0 1 1.292 0c.748.748 1.96.748 2.708 0a.914.914 0 0 1 1.292 0c.748.748 1.96.748 2.707 0a.914.914 0 0 1 1.293 0 1.915 1.915 0 0 0 2.354.28v-1.34z"/>
+                    </svg> Edad
+                    <div class="col-12">
+                      <form class="fuenteletra">
+                      <div class="mb-3">
+                        <input type="number" class="form-control" placeholder="2 años" minlength="3" maxlength="30" required>
+                      </div>
+                      </form> </div>
+                     <!-- 2 años -->
+                    </li>
+                    <li>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard2-heart-fill" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M10.058.501a.5.5 0 0 0-.5-.501h-2.98c-.276 0-.5.225-.5.501A.5.5 0 0 1 5.582 1a.497.497 0 0 0-.497.497V2a.5.5 0 0 0 .5.5h4.968a.5.5 0 0 0 .5-.5v-.503A.497.497 0 0 0 10.555 1a.5.5 0 0 1-.497-.499"/>
+                      <path fill-rule="evenodd" d="M4.174 1h-.57a1.5 1.5 0 0 0-1.5 1.5v12a1.5 1.5 0 0 0 1.5 1.5h9a1.5 1.5 0 0 0 1.5-1.5v-12a1.5 1.5 0 0 0-1.5-1.5h-.642q.084.236.085.5V2c0 .828-.668 1.5-1.492 1.5H5.581A1.496 1.496 0 0 1 4.09 2v-.5q.001-.264.085-.5Zm3.894 5.482c1.656-1.673 5.795 1.254 0 5.018-5.795-3.764-1.656-6.69 0-5.018"/>
+                    </svg> Estado de Vacunas
+                    <div class="col-12">
+                      <form class="fuenteletra">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Sin carnet de vacunación vigente" minlength="3" maxlength="30"pattern="[a-zA-Z ]*" required>
+                       
+                      </div>
+                      </form> </div>
+                    <!-- Sin carnet de vacunación vigente -->
+                  </li>
+                </ul>
+                <div class="container d-flex flex-wrap justify-content-center ">
+                  <div class="text-end align-items-center">
+                      <!-- <a class="btn btn-bd-primary" href="perfil.html">Guardar</a> -->
+                       <!-- Alerta -->
+             <button type="button" class="btn btn-bd-primary btn-lg" id="liveToastBtn">Guardar</button>
+             <div class="toast-container position-fixed bottom-0 end-0 p-3">
+               <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                 <div class="toast-header">
+                  <svg  class="rounden-me-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send-fill" viewBox="0 0 16 16">
+                    <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855H.766l-.452.18a.5.5 0 0 0-.082.887l.41.26.001.002 4.995 3.178 3.178 4.995.002.002.26.41a.5.5 0 0 0 .886-.083zm-1.833 1.89L6.637 10.07l-.215-.338a.5.5 0 0 0-.154-.154l-.338-.215 7.494-7.494 1.178-.471z"/>
+                  </svg>
+                   <strong class="me-auto">Guardado</strong>
+                   <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                 </div>
+                 <div class="toast-body">
+                   Sus modificaciones han sido Guardadas.
+                 </div>
+               </div>
+             </div>
+             <!-- cierre alerta -->
+                  </div>
+              </div>
+            </div>
+          </div>
+        </section>
+  </div>      
+            
+</main>
+<!-- footer -->
+
+<footer >
+
+  <div class="container">
+    <footer class="py-5">
+      
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top fw-light">
+        <p>&copy; 2024 AeroMascotas</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3">
+            <a href="https://www.instagram.com/aero_mascotas?igsh=YnhvMm1neXVid3hp" class="nav-link link-body-emphasis">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a>
+          </li>
+          <li>
+            <a href="https://x.com/Aero_Mascotas?t=YrEF1_AUSHbKZbX6KgOKSA&s=09" class="nav-link link-body-emphasis">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61556259195231&mibextid=ZbWKwL" class="nav-link link-body-emphasis">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="row justify-content-md-end align-items-start">
+        <div class="col-6 col-md-2 mb-3 flex-column">
+          <h5 class="bold text-start">Redes</h5>
+          <ul class="nav flex-column text-start">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Aeromascotas@gmail.com</a></li>
+            <li class="nav-item mb-2"><a href="https://www.instagram.com/aero_mascotas?igsh=YnhvMm1neXVid3hp" class="nav-link p-0 text-body-secondary">IG: aero_mascotas</a></li>
+            <li class="nav-item mb-2"><a href="https://x.com/Aero_Mascotas?t=YrEF1_AUSHbKZbX6KgOKSA&s=09" class="nav-link p-0 text-body-secondary"> X: Aero_Mascotas</a></li>
+            <li class="nav-item mb-2"><a href="https://www.facebook.com/profile.php?id=61556259195231&mibextid=ZbWKwL" class="nav-link p-0 text-body-secondary"> F: Aero Mascotas</a></li>
+          </ul>
+          </div>
+      
+  
+        <div class="col-6 col-md-2 mb-3 fuenteletra ">
+          <h5 class="bold text-start">Creadores</h5>
+            <ul class="nav flex-column text-start">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Julieth Amaya</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Leidy Sotelo</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Juan Zambrano</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Manuel Gutierrez</a></li>
+          </ul>
+        </div>
+  
+  
+      </div>
+  
+      
+    </footer>
+  </div>
+</footer>
+  
+  
+  
+      <script src="../js/bootstrap.bundle.min.js"></script>
+            <!-- Alerta -->
+ <script>
+  const toastTrigger = document.getElementById('liveToastBtn')
+const toastLiveExample = document.getElementById('liveToast')
+
+if (toastTrigger) {
+const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+toastTrigger.addEventListener('click', () => {
+toastBootstrap.show()
+})
+}
+</script>
+  </body>
+  </html>

@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio Administrador</title>
+    <script src="../js/color-modes.js"></script>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/headers/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+    <link href="jumbotrons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="px-3 py-2 fondo border-bottom">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="#" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <!-- logo del proyecto -->
+            <img src="../img/logo.png" alt="AeroMascotas" width="auto" height="70">
+            <h1 class="titulo">AeroMascotas</h1>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <li>
+              <a href="index_administrador.html" class="nav-link text-secondary">
+                <!-- Codigo del icono extraido del Bootstrap-->
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                  </svg>
+                Home
+              </a>
+            </li>
+            <li>
+              
+              <ul class="nav nav-tabs">
+                <li class="nav-item dropdown">
+                  
+                  <a class=" text-decoration-none nav-link text-black negrilla" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" >
+                    <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg> -->
+                    <!-- icono extraido desde botstrap -->
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi d-block mx-auto mb-1" width="auto" height="25" fill="" class="bi bi-x-diamond" viewBox="0 0 16 16">
+                        <path d="M7.987 16a1.53 1.53 0 0 1-1.07-.448L.45 9.082a1.53 1.53 0 0 1 0-2.165L6.917.45a1.53 1.53 0 0 1 2.166 0l6.469 6.468A1.53 1.53 0 0 1 16 8.013a1.53 1.53 0 0 1-.448 1.07l-6.47 6.469A1.53 1.53 0 0 1 7.988 16zM7.639 1.17 4.766 4.044 8 7.278l3.234-3.234L8.361 1.17a.51.51 0 0 0-.722 0M8.722 8l3.234 3.234 2.873-2.873c.2-.2.2-.523 0-.722l-2.873-2.873zM8 8.722l-3.234 3.234 2.873 2.873c.2.2.523.2.722 0l2.873-2.873zM7.278 8 4.044 4.766 1.17 7.639a.51.51 0 0 0 0 .722l2.874 2.873z"/>
+                    </svg>
+                    
+                  Dashboard</a>
+                  
+                  <ul class="dropdown-menu fondo">
+                    <li><a class="dropdown-item negrilla" href="modificar_politicas.html">Modificar Politicas</a></li>
+                    <li><a class="dropdown-item negrilla" href="modificar_servicio.html">Modificar servicios</a></li>
+                    <li><a class="dropdown-item negrilla" href="gestion_cuentas.html">Gestion de Cuentas</a></li>
+                    <li><a class="dropdown-item negrilla" href="gestion_de servicios.html">Gestion Servicios</a></li>
+                  </ul>
+                  
+            </li>
+            <li>
+              <a href="#" class="nav-link text-black negrilla" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" >
+                <!-- <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg> -->
+                <!-- icono extraido desde botstrap -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" class="bi bi-grid-1x2" viewBox="0 0 16 16">
+                    <path d="M6 1H1v14h5zm9 0h-5v5h5zm0 9v5h-5v-5zM0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1zm1 8a1 1 0 0 0-1 1v5a1 1 0 0 0 1 1h5a1 1 0 0 0 1-1v-5a1 1 0 0 0-1-1z"/>
+                  </svg>
+                Servicios</a>
+                <ul class="dropdown-menu fondo">
+                  <li><a class="dropdown-item negrilla" href="servicio_completo.html">Servicio Completo</a></li>
+                  <li><a class="dropdown-item negrilla" href="servicios_especificos.html">Servicio Especifico</a></li>
+                  <li><a class="dropdown-item negrilla" href="asesoria.html">Asesoria</a></li>
+                </ul>
+            </li>
+            <li>
+              <a href="error_404.html" class="nav-link text-black negrilla">
+                <!-- Codigo del icono extraido del Bootstrap-->
+                <svg xmlns="http://www.w3.org/2000/svg"  class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" class="bi bi-info-lg" viewBox="0 0 16 16">
+                  <path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0"/>
+                </svg>
+                Ayuda
+              </a>
+            </li>
+              
+              <li>
+                <ul class="nav nav-tabs">
+                  <li class="nav-item dropdown ">
+                    
+                    <a class=" text-decoration-none nav-link text-black negrilla" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" >
+                      
+                      <!-- icono extraido desde botstrap -->
+  
+                      <svg xmlns="http://www.w3.org/2000/svg" class="bi d-block mx-auto mb-1" width="auto" height="25" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                      </svg>
+                    Administrador</a>
+                    
+                    <ul class="dropdown-menu fondo">
+                      <li><a class="dropdown-item negrilla" href="Perfil_admin.html">Perfil</a></li>
+                      <li><a class="dropdown-item negrilla" href="../index.html">Salir</a></li>
+                    </ul>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="px-3 py-2 border-bottom mb-3">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <form class="col-12 col-lg-auto mb-2 mb-lg-0 me-lg-auto" role="search">
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        </form>
+
+      </div>
+    </div>
+  </header>
+
+  
+
+<main>
+
+  <div class="Servicioss"></div>
+  <div >
+    <hr class="featurette-divider">
+  <h1 class="fuenteletra mb-2 fw-bold text-center">Nuestros Servicios</h1>
+  <hr class="featurette-divider">
+  </div>
+  <div class="container px-4 py-5 fuenteletra" id="hanging-icons">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start fuenteletra">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
+        </div>
+        <div>
+          
+          <h3 class="fs-2 text-body-emphasis fuenteletra fw-bold ">Asesoría</h3>
+          <p>Nuestra asistente virtual Alexa está en
+            servicio de nuestros usuarios.
+            Ofrecemos de manera gratuita una
+            pequeña guía acerca de cómo y qué se
+            necesita al momento de viajar con tu
+            mascota para que cuentes con la mejor experiencia durante
+            el trayecto.</p>
+          <a href="asesoria.html" class="btn btn-bd-primary">
+            Editar servicio
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start fuenteletra">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis fuenteletra fw-bold">Servicio Especifico</h3>
+          <p>Cualquiera de los servicios anteriormente dichos se puede solicitar
+            por aparte. Por ende, los costos varían
+            de acuerdo al servicio que necesites.
+            También brindamos estos servicios para
+            certificados de mascotas que sean de
+            apoyo emocional.</p>
+          <a href="servicios_especificos.html" class="btn btn-bd-primary">
+            Editar servicio
+          </a>
+        </div>
+      </div>
+      <div class="col d-flex align-items-start fuenteletra">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis fuenteletra fw-bold">Servicio Completo</h3>
+          <p>Contamos con todos los procesos necesarios para viajar
+          con tu compañero: certificado de salud de tu mascota
+          servicio de vacunación, reserva previa de vuelo
+          documentación oficial, transportadora
+          y certificado para mascota de apoyo emocional.</p>
+
+          <a href="servicio_completo.html" class="btn btn-bd-primary">
+            Editar servicio
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Graficas -->
+<div class="justify-content-center col-12">
+  <div class=" container  col-6 justify-content-center">
+    <div class=" border shadow-sm p-3 mb-5  rounded-3 fuenteletra bold  d-inline-flex justify-content-center">
+      <h2 class="mb-4 gb-4 pt-4 text-center d-flex align-items-center bold" >Servicios realizados este mes</h2>
+      <div >
+        <canvas id="myChart" ></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-6 justify-content-center">
+    <div class="border shadow-sm p-3 mb-5 rounded-3 fuenteletra bold justify-content-center">
+      <h2 class="mb-4 gb-4 pt-4 text-center  align-items-center bold">Servicios por tipo</h2>
+      <div>
+        <canvas id="serviciosPorTipoChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-6 justify-content-center">
+    <div class="border shadow-sm p-3 mb-5 rounded-3 fuenteletra bold justify-content-center">
+      <h2 class="mb-4 gb-4 pt-4 text-center align-items-center bold">Estado de trámites</h2>
+      <div>
+        <canvas id="estadoTramitesChart"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="container col-6 justify-content-center">
+    <div class="border shadow-sm p-3 mb-5 rounded-3 fuenteletra bold justify-content-center">
+      <h2 class="mb-4 gb-4 pt-4 text-center align-items-center bold">Servicios realizados por usuario</h2>
+      <div>
+        <canvas id="serviciosPorUsuarioChart"></canvas>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</main>
+<!-- footer -->
+<footer >
+
+  <div class="container">
+    <footer class="py-5">
+      
+      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top fw-light">
+        <p>&copy; 2024 AeroMascotas</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3">
+            <a href="https://www.instagram.com/aero_mascotas?igsh=YnhvMm1neXVid3hp" class="nav-link link-body-emphasis">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+              </svg></a>
+          </li>
+          <li>
+            <a href="https://x.com/Aero_Mascotas?t=YrEF1_AUSHbKZbX6KgOKSA&s=09" class="nav-link link-body-emphasis">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+              </svg></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61556259195231&mibextid=ZbWKwL" class="nav-link link-body-emphasis">
+              <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+              </svg></a>
+          </li>
+        </ul>
+      </div>
+      <div class="row justify-content-md-end align-items-start">
+        <div class="col-6 col-md-2 mb-3 flex-column">
+          <h5 class="bold text-start">Redes</h5>
+          <ul class="nav flex-column text-start">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Aeromascotas@gmail.com</a></li>
+            <li class="nav-item mb-2"><a href="https://www.instagram.com/aero_mascotas?igsh=YnhvMm1neXVid3hp" class="nav-link p-0 text-body-secondary">IG: aero_mascotas</a></li>
+            <li class="nav-item mb-2"><a href="https://x.com/Aero_Mascotas?t=YrEF1_AUSHbKZbX6KgOKSA&s=09" class="nav-link p-0 text-body-secondary"> X: Aero_Mascotas</a></li>
+            <li class="nav-item mb-2"><a href="https://www.facebook.com/profile.php?id=61556259195231&mibextid=ZbWKwL" class="nav-link p-0 text-body-secondary"> F: Aero Mascotas</a></li>
+          </ul>
+          </div>
+      
+  
+        <div class="col-6 col-md-2 mb-3 fuenteletra ">
+          <h5 class="bold text-start">Creadores</h5>
+            <ul class="nav flex-column text-start">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Julieth Amaya</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Leidy Sotelo</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Juan Zambrano</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Manuel Gutierrez</a></li>
+          </ul>
+        </div>
+  
+  
+      </div>
+  
+      
+    </footer>
+  </div>
+</footer>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx = document.getElementById('myChart');
+    
+      new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Tramite Completo', 'Tramites Incompletos', 'Tramite Finalizado'],
+          datasets: [{
+            label: '34 tramites',
+            data: [12, 19, 3,],
+            borderWidth: 10
+            
+          }]
+        },
+       
+      });
+      </script>
+    <script>
+      // Datos para el gráfico de servicios por tipo
+      const ctxServiciosPorTipo = document.getElementById('serviciosPorTipoChart').getContext('2d');
+      const serviciosPorTipoChart = new Chart(ctxServiciosPorTipo, {
+        type: 'pie',
+        data: {
+          labels: ['Servicio Completo', 'Servicio Especifico', 'Asesoría'],
+          datasets: [{
+            label: 'Servicios por tipo',
+            data: [25, 35, 15], // Ejemplo de datos
+            backgroundColor: ['#007bff', '#ffc107', '#28a745'], // Colores para cada sección
+            borderWidth: 0 // Sin bordes
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false
+        }
+      });
+    </script>
+  
+  <script>
+    // Datos para el gráfico de estado de trámites
+    const ctxEstadoTramites = document.getElementById('estadoTramitesChart').getContext('2d');
+    const estadoTramitesChart = new Chart(ctxEstadoTramites, {
+      type: 'bar',
+      data: {
+        labels: ['Aprobado', 'En proceso', 'Rechazado'],
+        datasets: [{
+          label: 'Estado de trámites',
+          data: [20, 10, 5], // Ejemplo de datos
+          backgroundColor: ['#007bff', '#ffc107', '#dc3545'], // Colores para cada barra
+          borderWidth: 0 // Sin bordes
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          y: {
+            beginAtZero: true // Iniciar eje Y en 0
+          }
+        }
+      }
+    });
+  </script>
+  
+  <script>
+    // Datos para el gráfico de servicios por usuario
+    const ctxServiciosPorUsuario = document.getElementById('serviciosPorUsuarioChart').getContext('2d');
+    const serviciosPorUsuarioChart = new Chart(ctxServiciosPorUsuario, {
+      type: 'line',
+      data: {
+        labels: ['Usuario 1', 'Usuario 2', 'Usuario 3'], // Ejemplo de usuarios
+        datasets: [{
+          label: 'Servicios realizados por usuario',
+          data: [8, 12, 5], // Ejemplo de datos
+          backgroundColor: '#007bff', // Color para las barras
+          borderWidth: 0 // Sin bordes
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            beginAtZero: true // Iniciar eje X en 0
+          }
+        }
+      }
+    });
+  </script>
+    
+</body>
+</html>
